@@ -77,7 +77,7 @@ color molokai
 "let g:rehash256 = 1
 
 if has('gui_running')
-  set guifont="Sans":h10
+  set guifont="DejaVu2 Sans Mono for Powerline":h10
   set guioptions-=m
   set guioptions-=T
   set guioptions-=r
@@ -91,3 +91,11 @@ endif
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+"                         Powerline                         "
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+let g:Powerline_symbols = 'fancy'
+
+
