@@ -83,3 +83,11 @@ if has('gui_running')
   set guioptions-=r
   set guioptions-=L
 endif
+
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+"                         Pathogen init                     "
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
