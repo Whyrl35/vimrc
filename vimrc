@@ -93,9 +93,11 @@ syntax on
 filetype plugin indent on
 
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-"                         Powerline                         "
+"                         Plugin conf                       "
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
+" Powerline
 let g:Powerline_symbols = 'fancy'
 
-
+" Tagbar
+nmap <F8> :TagbarToggle<CR>
