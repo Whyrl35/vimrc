@@ -1,9 +1,0 @@
-let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/lhoudaye/Scripts'
-let g:netrw_dirhist_2='/home/lhoudaye/hacked'
-let g:netrw_dirhist_3='/home/lhoudaye/.config'
-let g:netrw_dirhist_4='/home/lhoudaye/development/zshrc'
-let g:netrw_dirhist_5='/home/lhoudaye/development/zsh-powerline'
-let g:netrw_dirhist_6='/usr/share/themes/ZOMG-PONIES!'
-let g:netrw_dirhist_7='/usr/share/themes/ZOMG-PONIES!/xfce-notify-4.0'
