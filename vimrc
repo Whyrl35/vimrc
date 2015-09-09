@@ -101,3 +101,6 @@ let g:Powerline_symbols = 'fancy'
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
+
+" Python Syntax
+let python_highlight_all = 1
