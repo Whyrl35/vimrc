@@ -102,6 +102,9 @@ filetype plugin indent on
 " Powerline
 let g:Powerline_symbols = 'fancy'
 
+" PowerLine vim-airline
+let g:airline_powerline_fonts = 1
+
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
 
