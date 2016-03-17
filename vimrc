@@ -91,9 +91,11 @@ endif
 "                         Pathogen init                     "
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
+filetype off
 execute pathogen#infect()
-syntax on
+execute pathogen#helptags()
 filetype plugin indent on
+syntax on
 
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 "                         Plugin conf                       "
@@ -104,9 +106,11 @@ let g:Powerline_symbols = 'fancy'
 
 " PowerLine vim-airline
 let g:airline_powerline_fonts = 1
+"let g:airline#extensions#tabline#enabled = 1
+
+" Better Whitespace
+autocmd BufWritePre * StripWhitespace
+let g:better_whitespace_verbosity=1
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
-
-" Python Syntax
-let python_highlight_all = 1
