@@ -4,4 +4,5 @@ https://github.com/davidhalter/jedi-vim
 https://github.com/vim-airline/vim-airline
 http://vimawesome.com/plugin/syntastic
 https://github.com/ntpeters/vim-better-whitespace
-https://github.com/ntpeters/vim-better-whitespace
+https://github.com/bling/vim-bufferline
+https://github.com/tpope/vim-fugitive
