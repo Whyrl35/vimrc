@@ -34,8 +34,6 @@ set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
 set titlestring=%t%=%y%m%w%r\ %l/%L\ (%n)\ %p%% titlelen=120
 set number
 
-set guifont=DejaVu\ Sans\ Mono\ for\ Powerline:h10
-
 set mouse=ar
 noremap <MiddleMouse> <LeftMouse><MiddleMouse>
 
@@ -45,22 +43,6 @@ set foldmethod=marker
 
 highlight ExtraWhitespace ctermbg=red guibg=red
 match ExtraWhitespace /\s\+$/
-
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-"                         Theme                             "
-"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
-
-color molokai
-"let g:molokai_original = 1
-"let g:rehash256 = 1
-
-if has('gui_running')
-  set guifont="DejaVu2 Sans Mono for Powerline":h10
-  set guioptions-=m
-  set guioptions-=T
-  set guioptions-=r
-  set guioptions-=L
-endif
 
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 "                         Pathogen init                     "
@@ -93,3 +75,21 @@ let g:better_whitespace_verbosity=1
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
+
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+"                         Theme                             "
+"~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
+
+"color jellybeans
+color molokai
+"let g:molokai_original = 1
+"let g:rehash256 = 1
+
+if has('gui_running')
+  set guifont="DejaVu2\ Sans\ Mono\ for\ Powerline":h10
+  set guioptions-=m
+  set guioptions-=T
+  set guioptions-=r
+  set guioptions-=L
+endif
+
