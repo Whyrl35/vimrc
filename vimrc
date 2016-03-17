@@ -60,6 +60,7 @@ syntax on
 
 " Python
 au BufRead,BufNewFile *.py set filetype=python
+au BufRead,BufNewFile *.py AirlineRefresh
 let python_highlight_all = 1
 
 " Powerline
