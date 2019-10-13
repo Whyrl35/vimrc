@@ -28,6 +28,11 @@ set nowrap
 "                         UI conf                           "
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
+filetype plugin indent on
+set tabstop=4
+set shiftwidth=4
+set expandtab
+
 set ruler
 set rulerformat=%15(%l,%c%V%M%)
 set statusline=%<%f\ %h%m%r%=%-14.(%l,%c%V%)\ %P
