@@ -76,8 +76,11 @@ let g:airline_powerline_fonts = 1
 "let g:airline#extensions#tabline#enabled = 1
 
 " Better Whitespace
-autocmd BufWritePre * StripWhitespace
-let g:better_whitespace_verbosity=1
+" autocmd BufWritePre * StripWhitespace
+" let g:better_whitespace_verbosity=1
+let g:better_whitespace_enabled = 1
+let g:strip_whitespace_on_save = 1
+let g:strip_whitespace_confirm = 0
 
 " Tagbar
 nmap <F8> :TagbarToggle<CR>
