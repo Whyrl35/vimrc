@@ -89,6 +89,7 @@ nmap <F8> :TagbarToggle<CR>
 "                         Theme                             "
 "~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"
 
+"color nord
 "color jellybeans
 color molokai
 "let g:molokai_original = 1
